@@ -30,6 +30,8 @@ $i18n = [
 	'lang_How_Make'				=>	'¿Cómo puedo hacer los botones más pequeños?',
 	'lang_How_Make_info'		=>	'Agregue el siguiente CSS al campo "Código Adicional":',
 	
+	'lang_How_to_Change'		=>	'¿Cómo cambio el botón de Twitter a X?',
+	
 	'lang_Credits'				=>	'Créditos',
 	'lang_Based_On'				=>	'Basado en el scripto:',
 	

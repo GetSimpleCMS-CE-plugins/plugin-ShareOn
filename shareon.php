@@ -86,7 +86,6 @@ function shareon(){
 		</div>
 
 		<div id="Options" class="w3-container w3-border-top tab">
-			<!--h2>Options</h2-->
 			
 			<form class="w3-container w3-padding-32" method="POST">
 				
@@ -268,6 +267,17 @@ function shareon(){
 					&lt;style><br>
 					&nbsp;&nbsp; .shareon > ::before {background-size:12px;top:4px;left:4px;}<br>
 					&nbsp;&nbsp; .shareon > * {padding:4px;height:12px;min-width:12px;}<br>
+					&lt;/style>
+					</code>
+				</p>
+				
+				<p><b>'.i18n_r("shareon/lang_How_to_Change").'</b></p>
+				<p style="padding-bottom:30px">
+					'.i18n_r("shareon/lang_How_Make_info").'<br><br>
+					<code class="w3-codespan">
+					&lt;style><br>
+					&nbsp;&nbsp; .shareon > .twitter {background-color: #000;}<br>
+					&nbsp;&nbsp; .shareon > .twitter::before {background-image: url(\'data:image/svg+xml,&lt;svg fill="%23fff" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">&lt;title>X&lt;/title>&lt;path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>&lt;/svg>\');}<br>
 					&lt;/style>
 					</code>
 				</p>

@@ -30,6 +30,8 @@ $i18n = [
 	'lang_How_Make'				=>	'How do I make the buttons smaller?',
 	'lang_How_Make_info'		=>	'Add the following CSS to the "Additional Code" field:',
 	
+	'lang_How_to_Change'		=>	'How do I change the button for Twitter to X?',
+	
 	'lang_Credits'				=>	'Credits',
 	'lang_Based_On'				=>	'Based on the script:',
 	
