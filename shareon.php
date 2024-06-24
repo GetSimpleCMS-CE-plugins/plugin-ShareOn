@@ -196,7 +196,7 @@ function shareon(){
 							
 							<!--li class="no-hover"></li-->
 							
-							<li>
+							<li style="margin-left:30px">
 								<input class="w3-check" type="checkbox" name="Line_Break" value="true" ' . (@$Line_Break == "true" ? 'checked' : '') . '>
 								<label>
 									&mdash; '.i18n_r("shareon/lang_Line_Break").'
