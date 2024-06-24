@@ -234,7 +234,7 @@ function shareon(){
 					<div class="w3-row w3-padding-32">
 					<hr>
 						<p>'.i18n_r("shareon/lang_Additional_Code").':</p>
-						<textarea class="w3-input w3-border" style="height:100px" name="Extra_Code">'. @$Extra_Code .'</textarea>
+						<textarea class="w3-input w3-border w3-codespan" style="height:100px;font-size:.9em" name="Extra_Code">'. @$Extra_Code .'</textarea>
 					</div>
 				</div>
 				
