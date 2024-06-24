@@ -13,6 +13,9 @@ $i18n = [
 	'lang_Info'					=>	'Info',
 	'lang_App_ID'				=>	'FB App ID required',
 	'lang_Line_Break'			=>	'Add Line Break Here?',
+	'lang_Copy_URL'				=>	'Copy URL',
+	'lang_Email'				=>	'Email',
+	'lang_Print'				=>	'Print',
 	'lang_Additional_Code'		=>	'Additional Code',
 	'lang_Save'					=>	'Save Options',
 	
@@ -23,14 +26,11 @@ $i18n = [
 	'lang_Help'					=>	'Help',
 	'lang_How_Find'				=>	'How to find the FB app ID?',
 	'lang_How_Find_info'		=>	'In the menu at the left corner, click on the “Facebook Login” link to expand the sub-menu. Next, you need to click on “Settings” from the sub-menu. Now expand the "Setting" menu and select "Basic". Here you can find the App ID and App Secret.',
+	
 	'lang_How_Make'				=>	'How do I make the buttons smaller?',
 	'lang_How_Make_info'		=>	'Add the following CSS to the "Additional Code" field:',
 	
 	'lang_Credits'				=>	'Credits',
 	'lang_Based_On'				=>	'Based on the script:',
-	'lang_Help'					=>	'Help',
-	
-	'lang_Made_With'			=>	'Made with ❤️ especially for "admin".',
-	'lang_Donate'				=>	'Is this plugin useful for you? Consider buying me a ☕.',
 	
 ];

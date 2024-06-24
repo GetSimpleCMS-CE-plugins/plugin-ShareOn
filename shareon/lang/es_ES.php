@@ -6,31 +6,31 @@ $i18n = [
 	'lang_Menu_Title'			=>	'ShareOn 📯',
 	
 	'lang_Page_Title'			=>	'ShareOn 📯',
-	'lang_Description'			=>	'Lightweight, stylish, and ethical share buttons for popular social networks.',
+	'lang_Description'			=>	'Botones para compartir livianos, elegantes y éticos para redes sociales populares.',
 	
 # General
-	'lang_Share_Buttons'		=>	'Share Buttons',
+	'lang_Share_Buttons'		=>	'Botones para Compartir',
 	'lang_Info'					=>	'Info',
-	'lang_App_ID'				=>	'FB App ID required',
-	'lang_Line_Break'			=>	'Add Line Break Here?',
-	'lang_Additional_Code'		=>	'Additional Code',
-	'lang_Save'					=>	'Save Options',
+	'lang_App_ID'				=>	'Se requiere ID de aplicación de FB',
+	'lang_Line_Break'			=>	'¿Agregar salto de línea aquí?',
+	'lang_Copy_URL'				=>	'Copiar URL',
+	'lang_Email'				=>	'Email',
+	'lang_Print'				=>	'Imprimir',
+	'lang_Additional_Code'		=>	'Código Adicional',
+	'lang_Save'					=>	'Guardar las Opciones',
 	
-	'lang_Instructions'			=>	'Instructions',
-	'lang_How_Add'				=>	'How do I add this to my site?',
-	'lang_How_Add_Info'			=>	'Just place the following code into your template where you would like it to be displayed:',
+	'lang_Instructions'			=>	'Instrucciones',
+	'lang_How_Add'				=>	'¿Cómo agrego esto a mi página?',
+	'lang_How_Add_Info'			=>	'Simplemente coloque el siguiente código en su plantilla donde desea que se muestre:',
 	
-	'lang_Help'					=>	'Help',
-	'lang_How_Find'				=>	'How to find the FB app ID?',
-	'lang_How_Find_info'		=>	'In the menu at the left corner, click on the “Facebook Login” link to expand the sub-menu. Next, you need to click on “Settings” from the sub-menu. Now expand the "Setting" menu and select "Basic". Here you can find the App ID and App Secret.',
-	'lang_How_Make'				=>	'How do I make the buttons smaller?',
-	'lang_How_Make_info'		=>	'Add the following CSS to the "Additional Code" field:',
+	'lang_Help'					=>	'Ayuda',
+	'lang_How_Find'				=>	'¿Cómo encontrar el ID de la aplicación de FB?',
+	'lang_How_Find_info'		=>	'En el menú de la esquina izquierda, haz clic en el enlace "Iniciar sesión en Facebook" para expandir el submenú. A continuación, debes hacer clic en "Configuración" en el submenú. Ahora expande el menú "Configuración" y selecciona "Básica". Aquí puedes encontrar el ID de la aplicación y el secreto de la aplicación.',
 	
-	'lang_Credits'				=>	'Credits',
-	'lang_Based_On'				=>	'Based on the script:',
-	'lang_Help'					=>	'Help',
+	'lang_How_Make'				=>	'¿Cómo puedo hacer los botones más pequeños?',
+	'lang_How_Make_info'		=>	'Agregue el siguiente CSS al campo "Código Adicional":',
 	
-	'lang_Made_With'			=>	'Made with ❤️ especially for "admin".',
-	'lang_Donate'				=>	'Is this plugin useful for you? Consider buying me a ☕.',
+	'lang_Credits'				=>	'Créditos',
+	'lang_Based_On'				=>	'Basado en el scripto:',
 	
 ];

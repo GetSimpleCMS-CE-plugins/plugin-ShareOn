@@ -59,7 +59,7 @@ function shareon(){
 		$Print 		= $fileData['Print'];
 		$Web_Share 	= $fileData['Web_Share'];
 		
-		$Extra_Info = $fileData['Extra_Info'];
+		$Extra_Code = $fileData['Extra_Code'];
 	};
 
 	echo '
@@ -81,8 +81,8 @@ function shareon(){
 		<hr>
 
 		<div class="w3-bar w3-white">
-			<button class="w3-bar-item w3-button tablink w3-orange" onclick="openTab(event,\'Options\')">Share Buttons</button>
-			<button class="w3-bar-item w3-button tablink" onclick="openTab(event,\'Info\')">Info</button>
+			<button class="w3-bar-item w3-button tablink w3-orange" onclick="openTab(event,\'Options\')">'.i18n_r("shareon/lang_Share_Buttons").'</button>
+			<button class="w3-bar-item w3-button tablink" onclick="openTab(event,\'Info\')">'.i18n_r("shareon/lang_Info").'</button>
 		</div>
 
 		<div id="Options" class="w3-container w3-border-top tab">
@@ -122,7 +122,7 @@ function shareon(){
 								<label>
 									<svg fill="#00b2ff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M.001 11.639C.001 4.949 5.241 0 12.001 0S24 4.95 24 11.639s-5.24 11.638-12 11.638c-1.21 0-2.38-.16-3.47-.46a.96.96 0 0 0-.64.05l-2.39 1.05a.96.96 0 0 1-1.35-.85l-.07-2.14a.97.97 0 0 0-.32-.68A11.39 11.389 0 0 1 .002 11.64zm8.32-2.19-3.52 5.6c-.35.53.32 1.139.82.75l3.79-2.87c.26-.2.6-.2.87 0l2.8 2.1c.84.63 2.04.4 2.6-.48l3.52-5.6c.35-.53-.32-1.13-.82-.75l-3.79 2.87c-.25.2-.6.2-.86 0l-2.8-2.1a1.8 1.8 0 0 0-2.61.48"/></svg> Messenger  
 								</label>
-								<input class="w3-input w3-border w3-round" type="text" style="margin-left:15px;display: inline-block;width:55%" name="Messenger_ID" placeholder="FB App ID required" value="'. @$Messenger_ID .'">
+								<input class="w3-input w3-border w3-round" type="text" style="margin-left:15px;display: inline-block;width:55%" name="Messenger_ID" placeholder="'.i18n_r("shareon/lang_App_ID").'" value="'. @$Messenger_ID .'">
 							</li>
 							<li>
 								<input class="w3-check" type="checkbox" name="Odnoklassniki" value="true" ' . (@$Odnoklassniki == "true" ? 'checked' : '') . '>
@@ -200,26 +200,26 @@ function shareon(){
 							<li>
 								<input class="w3-check" type="checkbox" name="Line_Break" value="true" ' . (@$Line_Break == "true" ? 'checked' : '') . '>
 								<label>
-									Add Line Break Here?
+									&mdash; '.i18n_r("shareon/lang_Line_Break").'
 								</label>
 							</li>
 							
 							<li>
 								<input class="w3-check" type="checkbox" name="Copy_URL" value="true" ' . (@$Copy_URL == "true" ? 'checked' : '') . '>
 								<label>
-									<svg fill="#8a54af" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> Copy URL
+									<svg fill="#8a54af" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> '.i18n_r("shareon/lang_Copy_URL").'
 								</label>
 							</li>
 							<li>
 								<input class="w3-check" type="checkbox" name="Email" value="true" ' . (@$Email == "true" ? 'checked' : '') . '>
 								<label>
-									<svg fill="#8a54af" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect height="16" rx="2" width="20" x="2" y="4"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></g></svg> Email
+									<svg fill="#8a54af" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><rect height="16" rx="2" width="20" x="2" y="4"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></g></svg> '.i18n_r("shareon/lang_Email").'
 								</label>
 							</li>
 							<li>
 								<input class="w3-check" type="checkbox" name="Print" value="true" ' . (@$Print == "true" ? 'checked' : '') . '>
 								<label>
-									<svg fill="#8a54af" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg> Print 
+									<svg fill="#8a54af" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/></svg> '.i18n_r("shareon/lang_Print").' 
 								</label>
 							</li>
 							<!--li>
@@ -233,13 +233,12 @@ function shareon(){
 					
 					<div class="w3-row w3-padding-32">
 					<hr>
-						<p>Additional Code:</p>
-						<textarea class="w3-input w3-border" style="height:100px" name="Extra_Info">'. @$Extra_Info .'</textarea>
+						<p>'.i18n_r("shareon/lang_Additional_Code").':</p>
+						<textarea class="w3-input w3-border" style="height:100px" name="Extra_Code">'. @$Extra_Code .'</textarea>
 					</div>
 				</div>
 				
 				<span style="margin-left: 15%;">
-					<!--input type="submit" class="w3-btn w3-large w3-round-large w3-green" style="width:66.6%" name="saveShareon" value="'.i18n_r("shareon/lang_Save").'"-->
 					<button class="w3-btn w3-large w3-round-large w3-green" style="width:66.6%" name="saveShareon">'.i18n_r("shareon/lang_Save").'</button>
 				</span>
 				
@@ -249,22 +248,22 @@ function shareon(){
 		<div id="Info" class="w3-container w3-border-top tab" style="display:none">
 			
 			<div class="w3-container w3-padding-48">
-				<h4>Instructions:</h4>
-				<p><b>How do I add this to my site?</b></p>
+				<h4>'.i18n_r("shareon/lang_Instructions").':</h4>
+				<p><b>'.i18n_r("shareon/lang_How_Add").'</b></p>
 				<p style="padding-bottom:30px">
-					Just place the following code into your template where you would like it to be displayed: <br><br>
+					'.i18n_r("shareon/lang_How_Add_Info").' <br><br>
 					<code class="w3-codespan">&lt;?php addShareOn();?></code>
 				</p>
 				
-				<h4>Help:</h4>
-				<p><b>How to find the FB app ID?</b></p>
+				<h4>'.i18n_r("shareon/lang_Help").':</h4>
+				<p><b>'.i18n_r("shareon/lang_How_Find").'</b></p>
 				<p style="padding-bottom:30px">
-					In the menu at the left corner, click on the “Facebook Login” link to expand the sub-menu. Next, you need to click on “Settings” from the sub-menu. Now expand the "Setting" menu and select "Basic". Here you can find the App ID and App Secret.
+					'.i18n_r("shareon/lang_How_Find_info").'
 				</p>
 				
-				<p><b>How do I make the buttons smaller?</b></p>
+				<p><b>'.i18n_r("shareon/lang_How_Make").'</b></p>
 				<p style="padding-bottom:30px">
-					Add the following CSS to the "Additional Code" field:<br><br>
+					'.i18n_r("shareon/lang_How_Make_info").'<br><br>
 					<code class="w3-codespan">
 					&lt;style><br>
 					&nbsp;&nbsp; .shareon > ::before {background-size:12px;top:4px;left:4px;}<br>
@@ -273,14 +272,14 @@ function shareon(){
 					</code>
 				</p>
 				
-				<h4>Credits:</h4>
-				<p>Based on the script: <a href="https://github.com/kytta/shareon/" target="_blank">Shareon v2.5.0</a></p>
+				<h4>'.i18n_r("shareon/lang_Credits").'</h4>
+				<p>'.i18n_r("shareon/lang_Based_On").' <a href="https://github.com/kytta/shareon/" target="_blank">Shareon v2.5.0</a></p>
 			</div>
 		</div>
 		
 		<hr>
 		
-		<div class="xw3-opacity">
+		<div class="w3-opacity">
 			<p>Made with <span class="credit-icon">❤️</span> especially for "<b>'.$USR.'</b>".<br>
 			Is this plugin useful for you? <a href="https://www.paypal.com/donate/?hosted_button_id=C3FTNQ78HH8BE" target="_blank">Consider buying me a <span class="credit-icon">☕</span></a>.</p>
 		</div>
@@ -331,7 +330,7 @@ function shareon(){
 		$data['Print'] 		= $_POST['Print'];
 		$data['Web_Share'] 	= $_POST['Web_Share'];
 		
-		$data['Extra_Info'] = $_POST['Extra_Info'];
+		$data['Extra_Code'] = $_POST['Extra_Code'];
 
 		$finalData = json_encode($data);
 
@@ -365,10 +364,10 @@ function addShareOn(){
     $readFile = file_get_contents($file);
     $readFileJson = json_decode($readFile, true); // Use true to get an associative array
 	
-    if (!empty($readFileJson['Extra_Info'])) {
+    if (!empty($readFileJson['Extra_Code'])) {
 		echo '
 		
-		'.$readFileJson['Extra_Info'].'';
+		'.$readFileJson['Extra_Code'].'';
 	}
 	
 	echo '
