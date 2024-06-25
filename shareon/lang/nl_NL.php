@@ -6,33 +6,34 @@ $i18n = [
 	'lang_Menu_Title'			=>	'ShareOn 📯',
 	
 	'lang_Page_Title'			=>	'ShareOn 📯',
-	'lang_Description'			=>	'Lightweight, stylish, and ethical share buttons for popular social networks.',
+	'lang_Description'			=>	'Lichte, stijlvolle en ethische deelknoppen voor populaire sociale netwerken.',
 	
 # General
-	'lang_Share_Buttons'		=>	'Share Buttons',
+	'lang_Share_Buttons'		=>	'Deelknoppen',
 	'lang_Info'					=>	'Info',
-	'lang_App_ID'				=>	'FB App ID required',
-	'lang_Line_Break'			=>	'Add Line Break Here?',
-	'lang_Copy_URL'				=>	'Copy URL',
+	'lang_App_ID'				=>	'FB App ID vereist',
+	'lang_Line_Break'			=>	'Voeg een regeleinde hier in?',
+	'lang_Copy_URL'				=>	'Kopieer URL',
 	'lang_Email'				=>	'Email',
 	'lang_Print'				=>	'Print',
-	'lang_Additional_Code'		=>	'Additional Code',
-	'lang_Save'					=>	'Save Options',
+	'lang_Additional_Code'		=>	'Extra Code',
+	'lang_Save'					=>	'Opslaan Options',
 	
-	'lang_Instructions'			=>	'Instructions',
-	'lang_How_Add'				=>	'How do I add this to my site?',
-	'lang_How_Add_Info'			=>	'Just place the following code into your template where you would like it to be displayed:',
+	'lang_Instructions'			=>	'Instructies',
+	'lang_How_Add'				=>	'Hoe voeg ik dit toe aan mijn site?',
+	'lang_How_Add_Info'			=>	'Plaats gewoon de volgende code in uw template waar u het wilt weergeven:',
 	
-	'lang_Help'					=>	'Help',
-	'lang_How_Find'				=>	'How to find the FB app ID?',
-	'lang_How_Find_info'		=>	'In the menu at the left corner, click on the “Facebook Login” link to expand the sub-menu. Next, you need to click on “Settings” from the sub-menu. Now expand the "Setting" menu and select "Basic". Here you can find the App ID and App Secret.',
+	'lang_Help'					=>	'Hulp',
+	'lang_How_Find'				=>	'Hoe vind je de FB app ID?',
+	'lang_How_Find_info'		=>	'In the menu at the left corner, click on the “Facebook Login” link to expand the sub-menu. Next, you need to click on “Settings” from the sub-menu. Now expand the "Setting" menu and select "Basic". Here you can find the App ID and App Secret.
+	In de linkerhoek van het menu, klik op de "Facebook Login" link om het submenu uit te klappen. Vervolgens moet je in het submenu op "Instellingen" klikken. Nu moet je het "Instellingen" menu uitklappen en "Basis" selecteren. Hier kan je de App ID en App Secret vinden.',
 	
-	'lang_How_Make'				=>	'How do I make the buttons smaller?',
-	'lang_How_Make_info'		=>	'Add the following CSS to the "Additional Code" field:',
+	'lang_How_Make'				=>	'Hoe maak ik de knoppen kleiner?',
+	'lang_How_Make_info'		=>	'Voeg de volgende CSS toe aan het veld "Aanvullende code":',
 	
-	'lang_How_to_Change'		=>	'How do I change the button for Twitter to X?',
+	'lang_How_to_Change'		=>	'Hoe verander ik de knop voor Twitter naar X?',
 	
-	'lang_Credits'				=>	'Credits',
-	'lang_Based_On'				=>	'Based on the script:',
+	'lang_Credits'				=>	'Kredieten',
+	'lang_Based_On'				=>	'Gebaseerd op het script:',
 	
 ];
